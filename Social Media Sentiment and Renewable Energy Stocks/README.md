@@ -21,9 +21,9 @@
 This project analyzes how social media sentiment around renewable energy (e.g., solar, wind, renewable companies) impacts the stock prices of renewable energy firms. Sentiment is gathered from X (formerly Twitter) and correlated with stock price data to explore if and how public sentiment influences market performance.
 
 Primary Goals:
--**Identify correlations** between social media sentiment and stock price changes.
--**Provide visual insights** on sentiment trends and stock movements over time.
--**Create a predictive model** to assess sentiment impact on stock prices.
+- **Identify correlations** between social media sentiment and stock price changes.
+- **Provide visual insights** on sentiment trends and stock movements over time.
+- **Create a predictive model** to assess sentiment impact on stock prices.
 
 ---
 
@@ -33,8 +33,8 @@ Primary Goals:
 2. **Stock Price Data**: Historical daily stock prices for selected companies in the renewable energy sector (Nextera Energy, GE Vernova, Adani Green Energy, etc.) from Yahoo Finance API calls.
 
 Data files: 
--x_sentiment_data.csv: Cleaned X data with sentiment scores.
--stock_prices.csv: Stock price data aligned with the X sentiment data
+- x_sentiment_data.csv: Cleaned X data with sentiment scores.
+- stock_prices.csv: Stock price data aligned with the X sentiment data
 
 ---
 
@@ -71,8 +71,8 @@ root
 ## Requirements and Installation
 
 ### Prerequisites
--Python 3.8+
--Twitter Developer Account with API Access
+- Python 3.8+
+- Twitter Developer Account with API Access
 
 ### Installation
 1. ***Clone the Repository***:
@@ -90,7 +90,7 @@ source env/bin/activate # On Windows use 'env\Scripts\activate'
 pip install -r requirements.txt
 ```
 4. ***API Keys Configuration***:
--Create a `.env` file in the root directory and add your X API keys:
+Create a `.env` file in the root directory and add your X API keys:
 ```
 TWITTER_API_KEY=your_api_key
 TWITTER_API_SECRET=your_api_secret
@@ -109,8 +109,8 @@ Process raw data to calculate daily sentiment scores:
 python src/data_preprocessing.py
 ```
 ### 3. Analysis and Visualization
--Open the Jupyter notebooks in `notebooks/` to explore data cleaning, sentiment analysis, and modeling process.
--View interactive dashboards, generated charts, or reports in the `reports/` folder. 
+- Open the Jupyter notebooks in `notebooks/` to explore data cleaning, sentiment analysis, and modeling process.
+- View interactive dashboards, generated charts, or reports in the `reports/` folder. 
 
 ---
 
@@ -129,10 +129,10 @@ python src/data_preprocessing.py
 ---
 
 ## Future Work
--***Expand to Additional Social Media***: Include sentiment from Reddit and other sources to increase data coverage.
--***Consideration of Financial News Media***: Include sentiment from popular financial news outlets to diversify input and broaden scope of analysis.
--***Refine Models***: Test and/or implement additional machine learning/artificial intelligence algorithms for higher predictive accuracy.
--***Real-Time Monitoring***: Explore real-time sentiment analysis for live stock prediction.
+- ***Expand to Additional Social Media***: Include sentiment from Reddit and other sources to increase data coverage.
+- ***Consideration of Financial News Media***: Include sentiment from popular financial news outlets to diversify input and broaden scope of analysis.
+- ***Refine Models***: Test and/or implement additional machine learning/artificial intelligence algorithms for higher predictive accuracy.
+- ***Real-Time Monitoring***: Explore real-time sentiment analysis for live stock prediction.
 
 ---
 
