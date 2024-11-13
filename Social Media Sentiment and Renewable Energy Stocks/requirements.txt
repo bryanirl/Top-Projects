@@ -1,0 +1,25 @@
+# Data Collection
+tweepy==4.10.1        # For Twitter API data collection
+yfinance==0.2.18      # For Yahoo Finance API stock data
+
+# Data Processing and Analysis
+pandas==1.5.3         # Data manipulation and handling
+numpy==1.24.2         # Mathematical functions for data manipulation
+
+# Sentiment Analysis
+vaderSentiment==3.3.2 # VADER sentiment analysis for social media
+textblob==0.17.1      # Alternative sentiment analysis tool
+
+# Visualization
+matplotlib==3.7.1     # Basic plotting library
+seaborn==0.12.2       # Statistical data visualization based on matplotlib
+
+# Machine Learning and Statistical Analysis
+scikit-learn==1.2.2   # ML models and evaluation
+statsmodels==0.14.0   # For statistical tests and time series analysis
+
+# Jupyter Notebook
+jupyter==1.0.0        # Interactive notebooks for data analysis and visualization
+
+# Optional: Dashboard/Reporting (if using Plotly for interactive dashboards)
+plotly==5.15.0        # Interactive visualizations (optional, if not using Tableau/Power BI)
